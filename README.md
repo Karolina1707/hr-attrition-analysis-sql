@@ -41,6 +41,7 @@ sql/
 - Pracownicy, którzy odeszli, zarabiali średnio mniej niż pracownicy pozostający w firmie.
 - Wyższa ilość odejść dotyczyła młodszych pracowników (poniżej 30 lat).
 - W części grup liczba obserwacji była niewielka, co ogranicza możliwość jednoznacznych wniosków.
+- Pracownicy mieszkający dalej od miejsca pracy częściej decydowali się na odejście, jednak w części grup próba była niewielka.
 
 ### Uwagi
 - Analiza ma charakter eksploracyjny i opiera się na ograniczonym zbiorze danych.
@@ -70,6 +71,8 @@ The analysis includes:
 - salary comparison between employees who left and stayed
 - age distribution analysis
 - deeper age analysis by department
+- analysis of distance from home and its relation to attrition
+- Employees living further from the workplace showed a higher tendency to leave, although some groups had small sample sizes.
 
 ### Repository structure
 sql/
