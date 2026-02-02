@@ -30,7 +30,7 @@ W projekcie przeprowadzono m.in.:
 - analizę struktury wieku a odejścia
 - pogłębioną analizę wieku według działów
 
-### 📂 Struktura repozytorium
+### Struktura repozytorium
 sql/
  ├── 01_exploration.sql
  └── 02_attrition_deep_dive.sql
