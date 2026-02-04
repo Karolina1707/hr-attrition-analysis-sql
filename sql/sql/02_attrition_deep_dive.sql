@@ -1,8 +1,7 @@
--- ==================================
 -- HR ATTRITION – AGE DEEP DIVE
--- ==================================
 
 -- 1. Podstawowe statystyki wieku vs odejście
+-- Basic statistics on age vs. departure
 SELECT
   Attrition,
   COUNT(*) AS employees_n,
@@ -13,6 +12,7 @@ FROM zatrudnienie
 GROUP BY Attrition;
 
 -- 2. Struktura wiekowa wg działu i odejścia
+-- Age structure by department and departures
 SELECT
   Department,
   Attrition,
