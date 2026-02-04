@@ -1,8 +1,7 @@
--- =========================================
 -- HR ATTRITION – DISTANCE FROM HOME ANALYSIS
--- =========================================
 
 -- 1. Średnia odległość od pracy vs odejście
+-- Average distance from work vs. attrition
 SELECT
   Attrition,
   COUNT(*) AS employees_n,
@@ -11,6 +10,7 @@ FROM zatrudnienie
 GROUP BY Attrition;
 
 -- 2. Grupowanie odległości a rotacja
+-- Distance grouping and rotation
 SELECT
   Attrition,
   CASE
